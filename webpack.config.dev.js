@@ -48,7 +48,7 @@ module.exports = {
         ],
     },
     plugins: [
-        new ExtractTextPlugin({ filename: 'bundle.css' }),
+        new ExtractTextPlugin({ filename: './public/bundle.css' }),
         new ForkTsCheckerWebpackPlugin({
             eslint: true,
         }),
